@@ -13,13 +13,13 @@
 η βάση του τριγώνου να ορίζεται από τον χρήστη.
 """
 
-# 1 solutiuon
+# 1st solutiuon
 n = int(input("Δώσε αριθμό γραμμών: "))
 for i in range(1, n + 1):
     print(" "*(n-i), end="")
     print("* "*i)
 
-# 2 solutiuon
+# 2nd solutiuon
 n = int(input('Δώσε αριθμό γραμμών: '))
 
 for i in range(n):
